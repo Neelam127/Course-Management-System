@@ -1,0 +1,121 @@
+
+<br>
+<br>
+ 
+<div class="colour">
+    <div class="row">
+      
+        
+      
+      
+      <div class="col-md-6 offset-md-3">
+          <div class="p-3 mb-2 bg-secondary text-white"><h2>Update Course</h2></div>
+          <div class="card auth">
+              <div class="card-body auth-card">
+    
+        <form (ngSubmit) = "onSubmit()">
+    
+            <br>
+    
+            <div class="form-group">
+    
+                <label> CourseID</label>
+    
+                <input type="text" class ="form-control" id = "courseID"
+    
+                    [(ngModel)] = "course.courseID" name = "courseID">
+    
+            </div>
+    
+            <br>
+    
+       
+    
+            <div class="form-group">
+    
+                <label> Course Name</label>
+    
+                <input type="text" class ="form-control" id = "courseName"
+    
+                    [(ngModel)] = "course.courseName" name = "courseName">
+    
+            </div>
+    
+       
+            <br>
+            <div class="form-group">
+    
+                <label>Trainer</label>
+    
+                <input type="text" class ="form-control" id = "trainer"
+    
+                    [(ngModel)] = "course.trainer" name = "trainer">
+    
+            </div>
+            <br>
+
+            <div class="form-group">
+    
+                <label>Cost</label>
+    
+                <input type="text" class ="form-control" id = "cost"
+    
+                    [(ngModel)] = "course.cost" name = "cost">
+    
+            </div>
+            <br>
+            <div class="form-group">
+    
+                <label>Detail</label>
+    
+                <input type="text" class ="form-control" id = "details"
+    
+                    [(ngModel)] = "course.details" name = "details">
+    
+            </div>
+            <br>
+            <div class="form-group">
+    
+                <label> Course Duration</label>
+    
+                <input type="text" class ="form-control" id = "course"
+    
+                    [(ngModel)] = "course.courseDuration" name = "course">
+    
+            </div>
+    
+       
+    
+            <button class = "btn btn-success" type ="submit">Submit</button>
+    
+       
+            
+    
+        </form>
+        
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+<br>
+<br>
+<br>
+<br>
+        
+    
+        <footer class="bg-light text-center text-lg-start">
+            <!-- Copyright --><div class="fixed-bottom">
+            <div class="text-center p-3" style="background-color: rgba(18, 14, 14, 0.884);">
+              
+              <a class="text-light" href="">© 2020 Copyright: CMS.com</a>
+              
+            </div>
+            </div>
+            
+            <!-- Copyright -->
+          </footer>
+    
+    

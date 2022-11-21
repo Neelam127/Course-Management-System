@@ -1,0 +1,5 @@
+#deletebtn:hover
+    {
+        background-color:#180449;
+        transition: 0.7s;
+    }

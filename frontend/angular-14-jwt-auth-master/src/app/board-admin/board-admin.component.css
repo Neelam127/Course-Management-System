@@ -1,0 +1,10 @@
+#btn11:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+}
+
+#deletebtn:hover
+    {
+        background-color:#580a0a;
+        transition: 0.7s;
+    }
